@@ -94,8 +94,8 @@ url = "https://data.alpaca.markets/v1/bars/day?symbols=" + symbol + \
     str(today) + "T23:59:59Z"
 payload = {}
 headers = {
-    'APCA-API-KEY-ID': 'PKQLL80ZK3WGK3GF5S6D',
-    'APCA-API-SECRET-KEY': 'EiKYfBhDHhnAtHdRPm3PDZ59sP6Kpvwrdqbx1qX1'
+    'APCA-API-KEY-ID': '',
+    'APCA-API-SECRET-KEY': ''
 }
 
 response = requests.request("GET", url, headers=headers, data=payload)
